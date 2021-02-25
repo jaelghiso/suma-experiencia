@@ -1,0 +1,8 @@
+@mixin mainFeatureDesc {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 21px;
+  text-align: center;
+  color: $white;
+}

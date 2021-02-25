@@ -1,0 +1,74 @@
+.mainFeatures-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 120px 0;
+}
+
+.card-feature {
+  width: 253px;
+  border-radius: 4px;
+  margin-right: 32px;
+}
+
+.card-feature:last-child {
+  margin-right: 0;
+}
+
+.talks {
+  background-color: $purple-500;
+  opacity: 0.9;
+  box-shadow: 0 6px 12px rgba(86, 81, 202, 0.5);
+}
+
+.workshops {
+  background-color: $cyan-500;
+  opacity: 0.9;
+  box-shadow: 0 6px 12px rgba(113, 156, 236, 0.5);
+}
+
+.panels {
+  background-color: $magenta-500;
+  opacity: 0.9;
+  box-shadow: 0 6px 12px rgba(203, 83, 148, 0.5);
+}
+
+.networking {
+  background-color: $green-500;
+  opacity: 0.9;
+  box-shadow: 0 6px 12px rgba(102, 187, 194, 0.5);
+}
+
+.feature-icon--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-icon {
+  width: 87px;
+  height: 80px;
+  margin: 25px auto;
+}
+
+.feature-title {
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 37px;
+  text-align: center;
+  color: $white;
+}
+
+.feature-subtitle {
+  padding: 14px 16px 0 16px;
+  @include mainFeatureDesc;
+  font-weight: 500;
+}
+
+.feature-description {
+  padding: 8px 16px 24px 16px;
+  @include mainFeatureDesc;
+  font-weight: 400;
+}
