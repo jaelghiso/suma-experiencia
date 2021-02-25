@@ -1,0 +1,76 @@
+.speakersSection-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 116px;
+}
+
+.speakersSection-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 61px;
+  text-align: center;
+  color: $purple-500;
+}
+
+.speakersSection-body {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 90px auto;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  margin: 0 78px;
+}
+
+.speaker-img--wrapper {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 21px;
+}
+
+.speaker-img {
+  max-width: 180px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.speaker:nth-child(even) .speaker-img--wrapper > .speaker-img {
+  border: 10px solid $yellow-500;
+  border-radius: 50%;
+}
+
+.speaker:nth-child(odd) .speaker-img--wrapper > .speaker-img {
+  border: 10px solid $pink-500;
+  border-radius: 50%;
+}
+
+.speaker-name {
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3125rem;
+  line-height: 25px;
+  text-align: center;
+  color: $purple-500;
+  margin-bottom: 18px;
+}
+
+.speaker-role {
+  max-width: 260px;
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 25px;
+  text-align: center;
+  color: #484848;
+  margin-bottom: 18px;
+}
