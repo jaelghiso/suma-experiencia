@@ -9,7 +9,7 @@
 
 .hero-logo {
   position: relative;
-  top: 0;
+  top: -150px;
   display: flex;
   align-items: center;
 }
@@ -23,6 +23,12 @@
   font-size: 1.125rem;
   color: $white;
   text-align: center;
+}
+
+@media (max-width: #{$mobile-width}) {
+  .hero-intro {
+    position: initial;
+  }
 }
 
 .hero-date {

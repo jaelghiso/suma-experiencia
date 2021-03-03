@@ -21,6 +21,19 @@
   margin: 90px auto;
 }
 
+@media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+  .speakersSection-body {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .speakersSection-body {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .speaker {
   display: flex;
   flex-direction: column;
@@ -28,6 +41,12 @@
   align-items: center;
   width: 260px;
   margin: 0 78px;
+}
+
+@media (min-width: #{$tablet-width}) {
+  .speaker {
+    margin: 0 24px;
+  }
 }
 
 .speaker-img--wrapper {

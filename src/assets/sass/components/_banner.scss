@@ -1,0 +1,60 @@
+.banner {
+  position: relative;
+}
+
+.banner-illustration-wrapper {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  max-width: 380px;
+}
+
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  background-color: $purple-300;
+}
+
+.banner-intro {
+  font-family: $font-family-primary;
+  font-weight: 400;
+  font-size: 2.1rem;
+  padding: 0 24px 40px 24px;
+  text-align: center;
+  color: $white;
+}
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+  .banner-section {
+    height: 360px;
+  }
+
+  .banner-illustration-wrapper {
+    max-width: 250px;
+    left: 16px;
+    bottom: 4px;
+  }
+
+  .banner-intro {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+}
+@media (max-width: #{$mobile-width}) {
+  .banner-section {
+    height: 360px;
+  }
+  .banner-illustration-wrapper {
+    max-width: 200px;
+    left: 16px;
+    bottom: 258px;
+  }
+
+  .banner-intro {
+    font-size: 1.25rem;
+  }
+}

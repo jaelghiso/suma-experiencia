@@ -3,7 +3,7 @@
         <div class="speakersSection-header">
             <h2 class="speakersSection-title">Speakers</h2>
         </div>
-        <div class="speakersSection-body grid grid-cols-3 gap-4">
+        <div class="speakersSection-body grid md:grid-cols-3 sm:grid-cols-2 md:gap-4 sm:gap-2">
             <div class="speaker">
                 <div class="speaker-img--wrapper">
                 <img src="@/assets/images/Anna W.jpg" alt="" class="speaker-img">
@@ -26,7 +26,7 @@
                 <p class="speaker-role">Head of UX en LATAM Airlines</p>
             </div>
         </div>
-        <div class="speakersSection-body grid grid-cols-3 gap-4">
+        <div class="speakersSection-body grid md:grid-cols-3 sm:grid-cols-2 md:gap-4 sm:gap-2">
             <div class="speaker">
                 <div class="speaker-img--wrapper">
                 <img src="@/assets/images/Rachel S.jpg" alt="" class="speaker-img">

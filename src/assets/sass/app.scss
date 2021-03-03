@@ -12,8 +12,12 @@
 @import "base/base";
 @import "base/typography";
 
+@import "components/banner";
+@import "components/comingSoon";
+@import "components/header";
 @import "components/hero";
 @import "components/main-features";
 @import "components/speakers";
+@import "components/footer";
 
 @import "themes/light";
