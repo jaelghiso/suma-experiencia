@@ -1,0 +1,75 @@
+{
+    "workshops" : [
+        {
+            "name" : "Por que mulheres não chegam ao C-Level",
+            "description" : "",
+            "speaker" : "Amyris Fernandez",
+            "speakerRol": "Professora e Consultora em UX",
+            "path": "Amyris F.png",
+            "date" : "15 de marzo",
+            "hoursUyu": "18:00hs Brasil",
+            "url": "https://www.eventbrite.cl/e/workshop-por-que-mulheres-nao-chegam-ao-c-level-suma-experiencia-tickets-144053888057"
+        },
+        {
+            "name" : "Diseñando Entrevistas con Usuarios: Soft y Hard Skills",
+            "description" : "",
+            "speaker" : "Darinka Buendía",
+            "speakerRol": "Design Research Manager Banco Santander México | Founder 6 Podcaster UXRMX",
+            "path": "Darinka B.png",
+            "date" : "16 de marzo",
+            "hoursUyu": "18:00hs México",
+            "url": "https://www.eventbrite.cl/e/disenando-entrevistas-con-usuarios-soft-y-hard-skills-suma-experiencia-tickets-144058275179"
+        },
+        {
+            "name" : "Herramientas de UX flexibles para la definición de producto",
+            "description" : "",
+            "speaker" : "Andreina Grasso",
+            "speakerRol": "Ux Designer XmartLabs",
+            "path": "Andreina G.png",
+            "date" : "16 de marzo",
+            "hoursUyu": "18:30hs Uruguay",
+            "url": "https://www.eventbrite.cl/e/herramientas-de-ux-flexibles-para-la-definicion-de-producto-suma-exp-tickets-143997890567"
+        },
+        {
+            "name" : "Planear para investigar, investigar para diseñar",
+            "description" : "",
+            "speaker" : "Mónica Gómez",
+            "speakerRol": "Product Lead | Service Designer | Researcher ",
+            "path": "Monica G.png",
+            "date" : "17 de marzo",
+            "hoursUyu": "17:30hs Costa Rica",
+            "url": "https://www.eventbrite.cl/e/taller-planear-para-investigar-investigar-para-disenar-suma-experiencia-tickets-144056142801"
+        },
+        {
+            "name" : "Designing data-driven experience with System Design",
+            "description" : "",
+            "speaker" : "Nur Karadeniz | Facilitador Arda Genc",
+            "speakerRol": "Fundadora de System Design Practice & Business Mentor en Diseño Sustentable en la Universidad de Cambridge",
+            "path": "Nur K.jpg",
+            "date" : "18 de marzo",
+            "hoursUyu": "13:00hs",
+            "url": "https://www.eventbrite.cl/e/workshop-designing-data-driven-experience-with-system-design-suma-exp-tickets-144059272161"
+        },
+        {
+            "name" : "¿Cómo me conecto con mi súper poder creativo usando Visual Thinking?",
+            "description" : "",
+            "speaker" : "Kristine Neckelmann Abbott",
+            "speakerRol": "Visualizadora de ideas | CEO Keep Ideas",
+            "path": "Kris N.png",
+            "date" : "18 de marzo",
+            "hoursUyu": "19:00hs Chile",
+            "url": "https://www.eventbrite.cl/e/como-me-conecto-con-mi-super-poder-creativo-usando-visual-thinking-tickets-144007230503"
+        },
+        {
+            "name" : "Mitos del Service Design",
+            "description" : "",
+            "speaker" : "Patricia Beltrán Laguna",
+            "speakerRol": "Product & Service Designer | Design & Experience Lead Tunki",
+            "path": "Patrica B.png",
+            "date" : "20 de marzo",
+            "hoursUyu": "08:30hs Perú",
+            "url": "https://www.eventbrite.cl/e/taller-mitos-del-service-design-suma-experiencia-tickets-144040130909"
+        }
+         
+    ]
+}

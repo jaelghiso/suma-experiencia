@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="footer-organizers">
             <img class="footer-logo logo_masm" src="@/assets/images/M-Uruguay-logo.svg" alt="">
             <img class="footer-logo" src="@/assets/images/GUBA_logo.svg" alt="">

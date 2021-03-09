@@ -53,7 +53,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/coming-soon"
+                    <router-link to="#footer"
                     target="_blank"
                     >Contacto
                     </router-link>
@@ -80,7 +80,7 @@ export default {
     },
     mounted() {
         let el = this.$el;
-        let originalOffsetY = 900;
+        let originalOffsetY = 740;
 
         window.addEventListener(
             "scroll",

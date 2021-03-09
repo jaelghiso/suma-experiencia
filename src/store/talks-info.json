@@ -1,0 +1,58 @@
+{
+    "talks" : [
+        {
+            "name" : "Secretos de profesionales exitosos/as en Design Thinking",
+            "description" : "",
+            "speaker" : "Anna White",
+            "speakerRol": "Head of Capability Building - Digital : Novartis",
+            "path": "Anna W",
+            "date" : "19 de marzo",
+            "hoursUyu": "18:15hs"
+        },
+        {
+            "name" : "La visión de las métricas",
+            "description" : "",
+            "speaker" : "Regina A. Lena",
+            "speakerRol": "Diseñadora de interacción con amplia experiencia en Londres, Amsterdam y Nueva York",
+            "path": "Regina L",
+            "date" : "19 de marzo",
+            "hoursUyu": "18:50hs"
+        },
+        {
+            "name" : "Trabajar en crisis",
+            "description" : "",
+            "speaker" : "Darcy Vergara Panire",
+            "speakerRol": "Head of UX en LATAM Airlines",
+            "path": "Darcy V",
+            "date" : "19 de marzo",
+            "hoursUyu": "20:00hs"
+        },
+        {
+            "name" : "The Girls Gotta Have It",
+            "description" : "",
+            "speaker" : "Rachel Ilan Simpson",
+            "speakerRol": "Líder de diseño en Google",
+            "path": "Rachel S",
+            "date" : "20 de marzo",
+            "hoursUyu": "13:05hs"
+        },
+        {
+            "name" : "Habilidades transferibles de tu vida al UX",
+            "description" : "",
+            "speaker" : "Muriel Backman",
+            "speakerRol": "Diseñadora UX y de servicios",
+            "path": "Mariel B",
+            "date" : "20 de marzo",
+            "hoursUyu": "13:40hs"
+        },
+        {
+            "name" : "Diseño de sistemas y el futuro del UX",
+            "description" : "",
+            "speaker" : "Nur Karadeniz",
+            "speakerRol": "Fundadora de System Design Practice & Business Mentor en Diseño Sustentable en la Universidad de Cambridge",
+            "path": "Nur K",
+            "date" : "19 de marzo",
+            "hoursUyu": "18:15hs"
+        }
+    ]
+}

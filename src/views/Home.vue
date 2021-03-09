@@ -4,6 +4,8 @@
     <hero />
     <main-features-section />
     <speakers-section />
+    <talks-section />
+    <workshops-section />
     <sponsor-section />
     <cta-section />
     <Footer />
@@ -16,6 +18,8 @@ import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import mainFeaturesSection from "@/components/MainFeaturesSection.vue";
 import speakersSection from "@/components/SpeakersSection.vue";
+import talksSection from "@/components/TalksSection.vue";
+import workshopsSection from "@/components/WorkshopsSection.vue";
 import sponsorSection from "@/components/SponsorSection.vue";
 import ctaSection from "@/components/CTASection.vue";
 import Footer from "@/components/Footer.vue";
@@ -27,6 +31,8 @@ export default {
     Hero,
     mainFeaturesSection,
     speakersSection,
+    talksSection,
+    workshopsSection,
     sponsorSection,
     ctaSection, 
     Footer
