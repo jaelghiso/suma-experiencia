@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   height: 561px;
-  padding: 60px 0;
   margin-bottom: 60px;
 }
 
@@ -71,8 +70,8 @@
   margin-bottom: 8px;
 }
 .talk-photo {
-  max-width: 80px;
-  padding: 10px;
+  max-width: 120px;
+  padding: 18px;
 }
 
 .talks-card-body {
@@ -102,6 +101,7 @@
 }
 
 .talks-card--rol {
+  max-width: 600px;
   font-family: $font-family-secondary;
   font-size: 0.875rem;
   font-weight: 400;
@@ -130,10 +130,24 @@
   color: $yellow-500;
 }
 
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+  .talks-date {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  .talks-day,
+  .talks-hour {
+    margin-top: 8px;
+    margin-right: 0;
+  }
+}
+
 @media (max-width: #{$mobile-width}) {
   .talksSection {
     flex-direction: column;
     height: auto;
+    margin: 0;
   }
 
   .talks-intro,

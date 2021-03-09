@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   height: 561px;
-  padding: 60px 0;
   margin-bottom: 60px;
 }
 
@@ -71,8 +70,8 @@
   margin-bottom: 8px;
 }
 .workshops-photo {
-  max-width: 80px;
-  padding: 10px;
+  max-width: 120px;
+  padding: 18px;
 }
 
 .workshops-img {
@@ -135,9 +134,22 @@
   color: $yellow-500;
 }
 
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+  .workshops-date {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .workshops-button,
+  .workshops-day,
+  .workshops-hour {
+    margin-top: 8px;
+  }
+}
+
 @media (max-width: #{$mobile-width}) {
   .workshopsSection {
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: auto;
   }
 
@@ -164,5 +176,16 @@
 
   .workshops-card--rol {
     font-size: 0.75rem;
+  }
+
+  .workshops-date {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .workshops-button,
+  .workshops-day,
+  .workshops-hour {
+    margin-top: 8px;
   }
 }

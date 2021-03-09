@@ -3,10 +3,10 @@
         <div class="header-brand">
             <img src="@/assets/images/suma-exp_logo.svg" alt="" class="header-brand--logo">
         </div>
-        <div class="mainNav">
-            <Burger v-show="isMobile()"></Burger>
+        <div class="mainNav ml-auto">
+            <Burger v-show="isMobile()" class="px-3"></Burger>
             <ul v-show="!isMobile()">
-                <li class="inline-block mr-3 ">
+                <li class="inline-block mr-3">
                     <router-link to="/coming-soon"
                     target="_blank"
                     class="mainNav-link"

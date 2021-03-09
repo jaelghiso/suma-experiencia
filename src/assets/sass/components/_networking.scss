@@ -1,0 +1,150 @@
+.networkingSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.networking-intro,
+.networking-info {
+  width: 50%;
+  margin: 0 20px;
+  height: 350px;
+}
+
+.networking-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $purple-500;
+  border-radius: 5px;
+  opacity: 0.9;
+  box-shadow: 0 6px 12px rgba(86, 81, 202, 0.5);
+}
+
+.networking-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: $white;
+  border-radius: 5px;
+  padding: 0 20px;
+  opacity: 0.9;
+}
+
+.networking-img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.networking-title {
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 37px;
+  text-align: center;
+  color: $white;
+  margin: 10px 0 40px 0;
+}
+
+.networking-description {
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: left;
+  color: $grey-600;
+  margin: 10px 0 20px 0;
+}
+
+.networking-topics {
+  list-style-type: disc;
+  color: $purple-500;
+  margin-bottom: 30px;
+}
+
+.networking-topic {
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.networking-button {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 18px;
+  text-align: center;
+  color: $purple-500;
+
+  background-color: $white;
+  border-radius: 4px;
+  padding: 10px 18px;
+  margin-bottom: 40px;
+}
+
+.networking-date {
+  align-items: center;
+  font-family: $font-family-primary;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: $black;
+  padding: 16px 10px;
+  text-align: left;
+}
+
+.networking-day,
+.networking-hour {
+  margin-right: 18px;
+}
+
+.networking-icon {
+  color: $yellow-500;
+}
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+  .networkingSection {
+    margin-bottom: 60px;
+  }
+  .networking-info {
+    height: 460px;
+    padding: 10px;
+  }
+  .networking-intro {
+    height: 460px;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .networkingSection {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 80px;
+  }
+
+  .networking-intro,
+  .networking-info {
+    width: 95%;
+    margin: 20px;
+  }
+
+  .networking-intro,
+  .networking-info {
+    height: 350px;
+  }
+
+  .networking-description,
+  .networking-topics,
+  .networking-date {
+    padding: 0 6%;
+  }
+}

@@ -6,6 +6,8 @@
     <speakers-section />
     <talks-section />
     <workshops-section />
+    <panels-section />
+    <networking-section />
     <sponsor-section />
     <cta-section />
     <Footer />
@@ -20,6 +22,8 @@ import mainFeaturesSection from "@/components/MainFeaturesSection.vue";
 import speakersSection from "@/components/SpeakersSection.vue";
 import talksSection from "@/components/TalksSection.vue";
 import workshopsSection from "@/components/WorkshopsSection.vue";
+import panelsSection from "@/components/PanelsSection.vue";
+import networkingSection from "@/components/NetworkingSection.vue";
 import sponsorSection from "@/components/SponsorSection.vue";
 import ctaSection from "@/components/CTASection.vue";
 import Footer from "@/components/Footer.vue";
@@ -33,6 +37,8 @@ export default {
     speakersSection,
     talksSection,
     workshopsSection,
+    panelsSection,
+    networkingSection,
     sponsorSection,
     ctaSection, 
     Footer
