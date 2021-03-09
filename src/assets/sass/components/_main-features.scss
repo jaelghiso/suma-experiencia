@@ -8,11 +8,24 @@
 }
 
 .card-feature {
-  width: 253px;
+  width: 302px;
   border-radius: 4px;
   margin-right: 32px;
 }
 
+@media (max-width: 1159px) {
+  .mainFeatures-section {
+    padding: 120px 60px;
+  }
+
+  .card-feature {
+    margin-bottom: 24px;
+  }
+
+  .card-feature:nth-child(even) {
+    margin-right: 0;
+  }
+}
 @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
   .card-feature {
     margin-bottom: 24px;
@@ -96,7 +109,7 @@
 }
 
 .feature-description {
-  padding: 8px 16px 24px 16px;
+  padding: 8px 20px 35px 20px;
   @include mainFeatureDesc;
   font-weight: 400;
 }

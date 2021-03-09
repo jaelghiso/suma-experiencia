@@ -1,6 +1,8 @@
 <template>
     <div class="bg-hero">
-        <img class="hero-logo" src="@/assets/images/suma-exp-cuad.gif" alt="">
+        <div class="hero-logo-wrapper">
+            <img class="hero-logo" src="@/assets/images/gif1.gif" alt="">
+        </div>
         <p class="hero-intro">Una conferencia latinoamericana en diseño de experiencia de uso (UX) liderada
             por mujeres y organizada por +Mujeres en UX y la Graduates of British Association of
             Uruguay (GBUA).

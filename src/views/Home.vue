@@ -4,6 +4,7 @@
     <hero />
     <main-features-section />
     <speakers-section />
+    <sponsor-section />
     <cta-section />
     <Footer />
   </div>
@@ -15,6 +16,7 @@ import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import mainFeaturesSection from "@/components/MainFeaturesSection.vue";
 import speakersSection from "@/components/SpeakersSection.vue";
+import sponsorSection from "@/components/SponsorSection.vue";
 import ctaSection from "@/components/CTASection.vue";
 import Footer from "@/components/Footer.vue";
 
@@ -25,6 +27,7 @@ export default {
     Hero,
     mainFeaturesSection,
     speakersSection,
+    sponsorSection,
     ctaSection, 
     Footer
   },

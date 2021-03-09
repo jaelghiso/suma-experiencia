@@ -22,10 +22,28 @@
 .banner-intro {
   font-family: $font-family-primary;
   font-weight: 400;
-  font-size: 2.1rem;
+  font-size: 1.875rem;
   padding: 0 24px 40px 24px;
   text-align: center;
   color: $white;
+}
+
+@media (max-width: 1312px) {
+  .banner-section {
+    height: 300px;
+  }
+
+  .banner-illustration-wrapper {
+    max-width: 250px;
+    left: 16px;
+    bottom: 4px;
+  }
+
+  .banner-intro {
+    font-size: 2.1rem;
+    padding: 2rem;
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {

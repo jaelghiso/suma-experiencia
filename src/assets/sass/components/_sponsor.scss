@@ -1,0 +1,51 @@
+.sponsorSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.sponsorSection-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 61px;
+  text-align: center;
+  color: $purple-500;
+}
+
+.sponsor-intro {
+  max-width: 800px;
+  margin: 20px 0 35px 0;
+  font-family: $font-family-primary;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: $black;
+  text-align: center;
+}
+
+.sponsor-divider {
+  transform: rotate(90deg);
+}
+
+.sponsor-logo--wrapper {
+  max-width: 250px;
+}
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+  .sponsor-intro {
+    padding: 0 6%;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .sponsor-intro {
+    padding: 6%;
+  }
+
+  .sponsor-logo--wrapper {
+    max-width: 200px;
+  }
+}

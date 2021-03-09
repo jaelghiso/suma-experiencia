@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 58px 0 80px 0;
 }
 
 .footer-organizers {
@@ -15,6 +16,7 @@
 
 .logo_masm {
   max-width: 215px;
+  margin-right: 32px;
 }
 .footer-contact--title {
   font-family: $font-family-primary;
@@ -38,6 +40,10 @@
   margin-right: 0;
 }
 
+.logo-mail {
+  width: 31px;
+}
+
 @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
   .footer {
     flex-direction: column;
@@ -55,6 +61,11 @@
 
   .footer-contact {
     margin-bottom: 30px;
+  }
+  .logo_masm {
+    max-width: 120px;
+    margin-bottom: 32px;
+    margin-right: 0;
   }
 }
 @media (max-width: #{$mobile-width}) {
@@ -74,5 +85,11 @@
 
   .footer-contact {
     margin-bottom: 30px;
+  }
+
+  .logo_masm {
+    max-width: 120px;
+    margin-bottom: 32px;
+    margin-right: 0;
   }
 }

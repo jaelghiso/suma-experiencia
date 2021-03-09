@@ -1,43 +1,82 @@
 <template>
-    <div class="header" :class="{ sticky: reachScroll }">
-        <div class="header-brand" v-if="!sticky">
-            <img src="" alt="" class="header-brand--logo">
+    <div class="header">
+        <div class="header-brand">
+            <img src="@/assets/images/suma-exp_logo.svg" alt="" class="header-brand--logo">
         </div>
         <div class="mainNav">
-            <ul class="">
-                <li class="inline-block mr-3">
+            <Burger v-show="isMobile()"></Burger>
+            <ul v-show="!isMobile()">
+                <li class="inline-block mr-3 ">
                     <router-link to="/coming-soon"
                     target="_blank"
                     class="mainNav-link"
-                    >Oradoras
+                    >Agenda
                     </router-link>
                 </li>
                 <li class="inline-block mr-3">
                     <router-link to="/coming-soon"
                     target="_blank"
                     class="mainNav-link"
-                    >Talleres
+                    >Código de conducta
                     </router-link>
                 </li>
                 <li class="inline-block mr-3">
                     <router-link to="/coming-soon"
                     target="_blank"
                     class="mainNav-link"
-                    >Registro
+                    >Contacto
+                    </router-link>
+                </li>
+                <li class="inline-block mr-3">
+                    <router-link to="/coming-soon"
+                    target="_blank"
+                    class="mainNav-link register-button"
+                    >Regístrate
                     </router-link>
                 </li>
             </ul>
+            
         </div>
+
+        <Sidebar v-show="isMobile()">
+            <ul class="sidebar-panel-nav">
+                <li>
+                    <router-link to="/coming-soon"
+                    target="_blank"
+                    >Agenda
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="/coming-soon"
+                    target="_blank"
+                    >Código de conducta
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="/coming-soon"
+                    target="_blank"
+                    >Contacto
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="/coming-soon"
+                    target="_blank"
+                    >Regístrate
+                    </router-link>
+                </li>
+            </ul>
+        </Sidebar>
     </div>
 </template>
 <script>
 import { throttle } from "lodash";
+import Burger from "./atoms/Burger";
+import Sidebar from "./atoms/Sidebar";
 
 export default {
-    data() {
-        return {
-            reachScroll: false,
-        }
+    components: {
+        Burger,
+        Sidebar
     },
     mounted() {
         let el = this.$el;
@@ -51,6 +90,15 @@ export default {
                 ]("fixed", "w-full", "top-0", "z-10", "transition", "opacity-80", "duration-300", "ease-out", "delay-150");
             }, 250)
         );
+    },
+    methods: {
+        isMobile() {
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                return true
+            } else {
+                return false
+            }
+        },
     }
 }
 </script>

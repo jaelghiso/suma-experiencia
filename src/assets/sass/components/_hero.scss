@@ -7,28 +7,30 @@
   height: 900px;
 }
 
-.hero-logo {
-  position: relative;
-  top: -150px;
+.hero-logo-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-left: -110px;
+}
+
+.hero-logo {
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
 }
 
 .hero-intro {
-  position: absolute;
-  top: 514px;
-  max-width: 602px;
+  max-width: 800px;
+  margin-top: 95px;
   font-family: $font-family-primary;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1.75rem;
   color: $white;
   text-align: center;
-}
-
-@media (max-width: #{$mobile-width}) {
-  .hero-intro {
-    position: initial;
-  }
 }
 
 .hero-date {
@@ -37,18 +39,60 @@
   font-weight: normal;
   font-size: 1rem;
   text-align: center;
-  letter-spacing: 1.15em;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
 
   color: $white;
-  margin: 40px 0;
+  margin: 20px 0 60px 0;
+}
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+  .hero-logo-wrapper {
+    margin-left: -50px;
+  }
+  .hero-logo {
+    position: relative;
+    top: 50px;
+    max-width: 650px;
+    padding: 20px;
+  }
+
+  .hero-intro {
+    padding: 0 6%;
+  }
+}
+@media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+  .hero-intro {
+    position: relative;
+    top: -30px;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .hero-logo-wrapper {
+    margin-left: -50px;
+  }
+  .hero-logo {
+    position: relative;
+    top: 50px;
+    max-width: 380px;
+    padding: 20px;
+  }
+  .hero-intro {
+    position: initial;
+    font-size: 1.5rem;
+    padding: 6%;
+  }
+  .hero-date {
+    position: initial;
+  }
 }
 
 .hero-button {
   font-family: $font-family-primary;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   line-height: 28px;
   text-align: center;
   color: $purple-500;
@@ -56,5 +100,5 @@
   max-width: 280px;
   background-color: $white;
   border-radius: 4px;
-  padding: 22px 52px;
+  padding: 18px 36px;
 }
