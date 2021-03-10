@@ -15,7 +15,7 @@
         </div>
         <div class="workshops-intro">
             <div class="workshops-img--wrapper">
-                <img src="@/assets/images/Experimenta.svg" alt="" class="talks-img">
+                <img src="@/assets/images/Experimenta.svg" alt="" class="workshops-img">
             </div>
             <p class="workshops-title">Workshops</p>
         </div>

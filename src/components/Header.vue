@@ -21,14 +21,14 @@
                     </router-link>
                 </li>
                 <li class="inline-block mr-3">
-                    <router-link to="/coming-soon"
+                    <router-link to="#footer"
                     target="_blank"
                     class="mainNav-link"
                     >Contacto
                     </router-link>
                 </li>
                 <li class="inline-block mr-3">
-                    <router-link to="/coming-soon"
+                    <router-link to="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
                     target="_blank"
                     class="mainNav-link register-button"
                     >Regístrate
@@ -59,7 +59,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/coming-soon"
+                    <router-link to="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
                     target="_blank"
                     >Regístrate
                     </router-link>
