@@ -8,6 +8,7 @@
             "path": "Amyris F.png",
             "date" : "15 de marzo",
             "hoursUyu": "18:00hs Brasil",
+            "hoursLatam": "MX 15:00 | PE 16:00 | CL 18:00 | UY 18:00 | CR 15:00",
             "url": "https://www.eventbrite.cl/e/workshop-por-que-mulheres-nao-chegam-ao-c-level-suma-experiencia-tickets-144053888057"
         },
         {
@@ -18,6 +19,7 @@
             "path": "Darinka B.png",
             "date" : "16 de marzo",
             "hoursUyu": "18:00hs México",
+            "hoursLatam": "PE 19:00 | BR 21:00 | CL 21:00 | UY 21:00 | CR 18:00",
             "url": "https://www.eventbrite.cl/e/disenando-entrevistas-con-usuarios-soft-y-hard-skills-suma-experiencia-tickets-144058275179"
         },
         {
@@ -28,6 +30,7 @@
             "path": "Andreina G.png",
             "date" : "16 de marzo",
             "hoursUyu": "18:30hs Uruguay",
+            "hoursLatam": "MX 15:30 | BR 18:30 | CL 18:30 | PE 16:30 | CR 15:30",
             "url": "https://www.eventbrite.cl/e/herramientas-de-ux-flexibles-para-la-definicion-de-producto-suma-exp-tickets-143997890567"
         },
         {
@@ -38,6 +41,7 @@
             "path": "Monica G.png",
             "date" : "17 de marzo",
             "hoursUyu": "17:30hs Costa Rica",
+            "hoursLatam": "MX 17:30 | BR 20:30 | CL 20:30 | PE 18:30 | UY 20 :30",
             "url": "https://www.eventbrite.cl/e/taller-planear-para-investigar-investigar-para-disenar-suma-experiencia-tickets-144056142801"
         },
         {
@@ -47,7 +51,8 @@
             "speakerRol": "Fundadora de System Design Practice & Business Mentor en Diseño Sustentable en la Universidad de Cambridge",
             "path": "Nur K.jpg",
             "date" : "18 de marzo",
-            "hoursUyu": "13:00hs",
+            "hoursUyu": "13:00hs Uruguay",
+            "hoursLatam": "MX 10:00 | BR 13:00 | CL 13:00 | PE 11:00 | CR 10:00",
             "url": "https://www.eventbrite.cl/e/workshop-designing-data-driven-experience-with-system-design-suma-exp-tickets-144059272161"
         },
         {
@@ -58,6 +63,7 @@
             "path": "Kris N.png",
             "date" : "18 de marzo",
             "hoursUyu": "19:00hs Chile",
+            "hoursLatam": "MX 16:00 | BR 19:00 | PE 17:00 | UY 19:00 | CR 16:00",
             "url": "https://www.eventbrite.cl/e/como-me-conecto-con-mi-super-poder-creativo-usando-visual-thinking-tickets-144007230503"
         },
         {
@@ -65,9 +71,10 @@
             "description" : "",
             "speaker" : "Patricia Beltrán Laguna",
             "speakerRol": "Product & Service Designer | Design & Experience Lead Tunki",
-            "path": "Patrica B.png",
+            "path": "Patricia B.png",
             "date" : "20 de marzo",
             "hoursUyu": "08:30hs Perú",
+            "hoursLatam": "MX 07:30 | BR 10:30 | CL 10:30 | UY 10:30 | CR 07:30",
             "url": "https://www.eventbrite.cl/e/taller-mitos-del-service-design-suma-experiencia-tickets-144040130909"
         }
          

@@ -141,14 +141,39 @@
     margin: 20px;
   }
 
-  .networking-intro,
-  .networking-info {
+  .networking-intro {
     height: 350px;
   }
-
+  .networking-info {
+    height: 460px;
+  }
   .networking-description,
   .networking-topics,
   .networking-date {
     padding: 0 6%;
+  }
+
+  .networking-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .networking-button,
+  .networking-day,
+  .networking-hour {
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+  .networking-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .networking-button,
+  .networking-day,
+  .networking-hour {
+    margin-top: 8px;
   }
 }

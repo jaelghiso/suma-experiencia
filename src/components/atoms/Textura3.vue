@@ -1,0 +1,140 @@
+<template>
+  <svg
+    id="Capa_1"
+    data-name="Capa 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 700 800"
+  >
+    <title>Textura 3</title>
+    <g>
+      <path
+        class="cls-1"
+        d="M235.86,636.81,180.62,621.7l33.24-37.77Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-2"
+        d="M120.29,517.74l-25.57-22.5h0c-5.63,6.4-16.87,19.18-4.6,30C103.42,536.92,114.66,524.14,120.29,517.74Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-2"
+        d="M97.75,463.88l39.42,34.69-16.88,19.17L80.88,483.06Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-3"
+        d="M182.37,371.35l-54.68,62.13c9.46,10.78,37,20.83,58.27-1.64C210.82,405.53,193.53,380.19,182.37,371.35Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-3"
+        d="M122,371.84l65.69,57.81c10.33-8.8,18.92-35.63-4.92-58C154.83,345.49,130.26,361.25,122,371.84Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-4"
+        d="M153.64,569.26l15.48,13.62c4.15-4.65,11.76-13.37,4.33-19.91C165.4,555.89,157.76,564.57,153.64,569.26Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+
+    <g>
+      <path
+        class="cls-4"
+        d="M144.49,561.21,160,574.83c-3.65,4.22-10.53,12-18,5.42C134,573.17,140.8,565.4,144.49,561.21Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-5"
+        d="M98.43,597.78l16.9,14.87s11-8.62.63-17.72S98.43,597.78,98.43,597.78Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-2"
+        d="M157.6,661.72l-11.86-10.44c-2.59,2.41-5.54,8.84-1.28,12.94C149.43,669,155.38,664.46,157.6,661.72Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-2"
+        d="M141.3,647.38l16.3,14.35-23.28-6.42Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-5"
+        d="M167.33,502.75l1.5,30.27-15.85-14Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-5"
+        d="M153,519.06l30.2-2.35-15.85-14Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-4"
+        d="M264.58,323.25l-85.1-92.61v92.61Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-4"
+        d="M247.06,230.64h25v92.61h-25Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-5"
+        d="M77.72,193.73,192.64,82V193.73Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-5"
+        d="M192.64,193.73,77.72,82V193.73Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+    <g>
+      <path
+        class="cls-5"
+        d="M192.64,193.73,77.72,82V193.73Z"
+        transform="translate(-64 -82)"
+      />
+    </g>
+
+    <path class="cls-1" d="M111,225l47,93H64Z" transform="translate(-64 -82)" />
+  </svg>
+</template>
+<script>
+export default {
+  props: {
+    width: String,
+    height: String
+  }
+};
+</script>

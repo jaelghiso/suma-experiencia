@@ -7,7 +7,7 @@
             "speakerRol": "Head of Capability Building - Digital : Novartis",
             "path": "Anna W",
             "date" : "19 de marzo",
-            "hoursUyu": "18:15hs"
+            "hoursUyu": "18:15hs GTM-3"
         },
         {
             "name" : "La visión de las métricas",
@@ -16,7 +16,7 @@
             "speakerRol": "Diseñadora de interacción con amplia experiencia en Londres, Amsterdam y Nueva York",
             "path": "Regina L",
             "date" : "19 de marzo",
-            "hoursUyu": "18:50hs"
+            "hoursUyu": "18:50hs GTM-3"
         },
         {
             "name" : "Trabajar en crisis",
@@ -25,7 +25,7 @@
             "speakerRol": "Head of UX en LATAM Airlines",
             "path": "Darcy V",
             "date" : "19 de marzo",
-            "hoursUyu": "20:00hs"
+            "hoursUyu": "20:00hs GTM-3"
         },
         {
             "name" : "The Girls Gotta Have It",
@@ -34,16 +34,16 @@
             "speakerRol": "Líder de diseño en Google",
             "path": "Rachel S",
             "date" : "20 de marzo",
-            "hoursUyu": "13:05hs"
+            "hoursUyu": "13:05hs GTM-3"
         },
         {
             "name" : "Habilidades transferibles de tu vida al UX",
             "description" : "",
-            "speaker" : "Muriel Backman",
+            "speaker" : "Mariel Backman",
             "speakerRol": "Diseñadora UX y de servicios",
             "path": "Mariel B",
             "date" : "20 de marzo",
-            "hoursUyu": "13:40hs"
+            "hoursUyu": "13:40hs GTM-3"
         },
         {
             "name" : "Diseño de sistemas y el futuro del UX",
@@ -52,7 +52,7 @@
             "speakerRol": "Fundadora de System Design Practice & Business Mentor en Diseño Sustentable en la Universidad de Cambridge",
             "path": "Nur K",
             "date" : "19 de marzo",
-            "hoursUyu": "18:15hs"
+            "hoursUyu": "18:15hs GTM-3"
         }
     ]
 }

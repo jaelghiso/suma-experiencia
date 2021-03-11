@@ -9,7 +9,9 @@
 
 @import "abstracts/variables";
 @import "abstracts/mixins";
+@import "base/animations";
 @import "base/base";
+@import "base/svg-textures";
 @import "base/typography";
 
 @import "components/banner";
@@ -20,6 +22,7 @@
 @import "components/hero";
 @import "components/main-features";
 @import "components/networking";
+@import "components/organizers";
 @import "components/panels";
 @import "components/speakers";
 @import "components/scrollbar";

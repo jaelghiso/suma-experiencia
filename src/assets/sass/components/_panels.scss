@@ -138,4 +138,28 @@
   .panels-date {
     padding: 0 6%;
   }
+
+  .panels-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .panels-button,
+  .panels-day,
+  .panels-hour {
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+  .panels-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .panels-button,
+  .panels-day,
+  .panels-hour {
+    margin-top: 8px;
+  }
 }

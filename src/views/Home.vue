@@ -8,6 +8,7 @@
     <workshops-section />
     <panels-section />
     <networking-section />
+    <organizers-section />
     <sponsor-section />
     <cta-section />
     <Footer />
@@ -24,6 +25,7 @@ import talksSection from "@/components/TalksSection.vue";
 import workshopsSection from "@/components/WorkshopsSection.vue";
 import panelsSection from "@/components/PanelsSection.vue";
 import networkingSection from "@/components/NetworkingSection.vue";
+import organizersSection from "@/components/OrganizersSection.vue";
 import sponsorSection from "@/components/SponsorSection.vue";
 import ctaSection from "@/components/CTASection.vue";
 import Footer from "@/components/Footer.vue";
@@ -39,9 +41,10 @@ export default {
     workshopsSection,
     panelsSection,
     networkingSection,
+    organizersSection,
     sponsorSection,
-    ctaSection, 
+    ctaSection,
     Footer
-  },
+  }
 };
 </script>

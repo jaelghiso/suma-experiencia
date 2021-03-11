@@ -1,0 +1,102 @@
+.cls-1 {
+  fill: #d078f0;
+}
+.cls-2 {
+  fill: #e8c891;
+}
+.cls-3 {
+  fill: #719cec;
+}
+.cls-4 {
+  fill: #55b3bb;
+}
+.cls-5 {
+  fill: #cb5394;
+}
+
+.texture-left {
+  width: 400px;
+  position: absolute;
+  left: 20px;
+  transform: rotate(-15deg);
+  float: left;
+  opacity: 0.7;
+}
+
+.texture-right {
+  width: 400px;
+  position: absolute;
+  top: 1760px;
+  right: 0;
+  float: right;
+}
+
+.texture-downleft {
+  width: 300px;
+  float: left;
+  position: absolute;
+  left: 0;
+}
+
+.texture-downright {
+  width: 400px;
+  float: right;
+  position: absolute;
+  right: -50px;
+  opacity: 0.7;
+}
+
+@media (min-width: #{$mobile-width}) and (max-width: #{$desktop-width}) {
+  .texture-downright {
+    width: 230px;
+    top: 6300px;
+  }
+
+  .texture-downleft {
+    width: 200px;
+    top: 6000px;
+    opacity: 0.7;
+  }
+
+  .texture-left {
+    width: 400px;
+    top: 1580px;
+  }
+  .texture-right {
+    width: 350px;
+    top: 1650px;
+    opacity: 0.5;
+  }
+}
+@media (max-width: #{$mobile-width}) {
+  .texture-right {
+    width: 150px;
+    position: absolute;
+    top: 2587px;
+    right: 0;
+    float: right;
+  }
+
+  .texture-left {
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    top: 4520px;
+    transform: rotate(-15deg);
+    float: left;
+    opacity: 0.5;
+  }
+
+  .texture-downright {
+    width: 230px;
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 10759px;
+  }
+
+  .texture-downleft {
+    width: 150px;
+    opacity: 0.5;
+  }
+}
