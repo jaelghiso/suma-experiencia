@@ -38,7 +38,7 @@
 }
 
 .talks-img {
-  width: 90%;
+  width: 70%;
 }
 
 .talks-title {
@@ -49,20 +49,20 @@
   line-height: 37px;
   text-align: center;
   color: $white;
-  margin: 10px 0 40px 0;
+  margin: 30px 0 40px 0;
 }
 .talks-button {
   font-family: $font-family-primary;
   font-style: normal;
   font-weight: 700;
-  font-size: 0.875rem;
-  line-height: 18px;
+  font-size: 1rem;
+  line-height: 20px;
   text-align: center;
   color: $purple-500;
 
   background-color: $white;
   border-radius: 4px;
-  padding: 10px 18px;
+  padding: 16px 32px;
   margin-bottom: 40px;
 }
 
@@ -173,7 +173,7 @@
     height: 350px;
   }
   .talks-carousel {
-    height: 561px;
+    height: auto;
   }
 
   .talks-card--title {
@@ -186,6 +186,10 @@
 
   .talks-card--rol {
     font-size: 0.75rem;
+  }
+
+  .talks-title {
+    font-size: 1.4rem;
   }
 
   .talks-date {

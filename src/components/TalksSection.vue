@@ -1,5 +1,5 @@
 <template>
-  <div class="talksSection">
+  <div class="talksSection" id="talks">
     <div class="talks-intro">
       <div class="talks-img--wrapper">
         <img src="@/assets/images/Muevete.svg" alt="" class="talks-img" />

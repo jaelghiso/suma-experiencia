@@ -27,7 +27,7 @@
           ><i class="far fa-clock fa-lg mr-2 workshops-icon"></i
           >{{ workshopHour }}</span
         >
-        <small class="workshops-hour visible sm:invisible">{{ workshopHoursLatam }}</small>
+        <small class="workshops-hour">{{ workshopHoursLatam }}</small>
         <a :href="workshopUrl" target="_blank" class="workshops-button"
           >Regístrate</a
         >
@@ -45,7 +45,7 @@ export default {
     workshopDate: String,
     workshopHour: String,
     workshopHoursLatam: String,
-    workshopUrl: String
+    workshopUrl: String,
   }
 };
 </script>

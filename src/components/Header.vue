@@ -11,12 +11,12 @@
       <Burger v-show="isMobile()" class="px-3"></Burger>
       <ul v-show="!isMobile()">
         <li class="inline-block mr-3">
-          <router-link to="/coming-soon" target="_blank" class="mainNav-link"
-            >Agenda
+          <router-link to="/" class="mainNav-link active"
+            >Conferencia
           </router-link>
         </li>
         <li class="inline-block mr-3">
-          <router-link to="/coming-soon" target="_blank" class="mainNav-link"
+          <router-link to="/coming-soon" class="mainNav-link"
             >Código de conducta
           </router-link>
         </li>
@@ -28,7 +28,7 @@
             href="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
             target="_blank"
             class="mainNav-link register-button"
-            >Regístrate
+            >Registrate
           </a>
         </li>
       </ul>
@@ -37,7 +37,16 @@
     <Sidebar v-show="isMobile()">
       <ul class="sidebar-panel-nav">
         <li>
-          <router-link to="/coming-soon" target="_blank">Agenda </router-link>
+          <a href="#talks">Charlas</a>
+        </li>
+        <li>
+          <a href="#workshops">Talleres</a>
+        </li>
+        <li>
+          <a href="#panels">Paneles</a>
+        </li>
+        <li>
+          <a href="#networking">Networking</a>
         </li>
         <li>
           <router-link to="/coming-soon" target="_blank"
@@ -51,7 +60,7 @@
           <a
             href="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
             target="_blank"
-            >Regístrate
+            >Registrate
           </a>
         </li>
       </ul>

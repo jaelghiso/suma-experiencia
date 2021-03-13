@@ -1,5 +1,5 @@
 <template>
-  <div class="networkingSection">
+  <div class="networkingSection" id="networking">
     <div class="networking-info">
       <p class="networking-description">
         Porque la idea no es sólo recibir información sino involucrarnos para
@@ -19,7 +19,7 @@
         >
         <span class="networking-hour"
           ><i class="far fa-clock fa-lg mr-2 networking-icon"></i> 19:25 hrs
-          GTM-3</span
+          GMT-3</span
         >
       </div>
     </div>

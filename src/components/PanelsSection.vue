@@ -1,5 +1,5 @@
 <template>
-  <div class="panelsSection">
+  <div class="panelsSection" id="panels">
     <div class="panels-intro">
       <div class="panels-img--wrapper">
         <img src="@/assets/images/Cuestiona.svg" alt="" class="panels-img" />
@@ -26,7 +26,7 @@
         >
         <span class="panels-hour"
           ><i class="far fa-clock fa-lg mr-2 networking-icon"></i> 14:15 hrs
-          GTM-3</span
+          GMT-3</span
         >
       </div>
     </div>

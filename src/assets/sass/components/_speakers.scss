@@ -21,6 +21,10 @@
   margin: 90px auto;
 }
 
+.speaker {
+  z-index: 8;
+}
+
 @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
   .speakersSection-body {
     flex-wrap: wrap;

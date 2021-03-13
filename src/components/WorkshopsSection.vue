@@ -1,5 +1,5 @@
 <template>
-  <div class="workshopsSection">
+  <div class="workshopsSection" id="workshops">
     <div class="workshops-carousel scrollbar">
       <card-workshops
         v-for="workshop in workshops"

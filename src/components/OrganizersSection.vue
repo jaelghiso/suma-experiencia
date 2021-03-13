@@ -66,18 +66,18 @@
             </div>
             <h4 class="organizer-name">Leticia Barzilai</h4>
             <p class="organizer-role">
-              Organización y comunicación
+              Organización
             </p>
           </div>
           <div class="organizer">
             <div class="organizer-img--wrapper">
               <img
-                src="@/assets/images/Paula.png"
+                src="@/assets/images/pau bn.png"
                 alt=""
                 class="organizer-img"
               />
             </div>
-            <h4 class="organizer-name">Paula Delgado Iglesias</h4>
+            <h4 class="organizer-name">Pau Delgado Iglesias</h4>
             <p class="organizer-role">
               Especialista en género
             </p>
