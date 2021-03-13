@@ -39,8 +39,7 @@
   font-family: $font-family-secondary;
   font-weight: 300;
   font-size: 1rem;
-  padding: 20px auto;
-  margin: 20px 0;
+  padding: 18px 16px;
 }
 
 .codeConduct-list {
@@ -58,13 +57,14 @@
 .codeConduct-subSection--title {
   font-size: 1.5rem;
   font-family: $font-family-secondary;
-  margin: 40px 0 30px 0;
+  margin: 40px 16px 30px 16px;
 }
 .codeConduct-subSection--subtitle {
   font-size: 1.125rem;
   font-weight: 500;
   color: $grey-500;
   font-family: $font-family-secondary;
+  padding: 20px 16px;
 }
 
 .magenta {
@@ -88,4 +88,32 @@
   font-family: $font-family-secondary;
   color: $pink-500;
   margin: 60px 0 30px 0;
+}
+
+@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+  .codeConductSection {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .codeConductSection {
+    max-width: 360px;
+  }
+
+  .codeConduct-title {
+    font-size: 1.5rem;
+  }
+  .codeConduct-subSection--title {
+    font-size: 1.25rem;
+  }
+
+  .codeConduct-subSection--subtitle {
+    font-size: 1rem;
+  }
+
+  .codeConduct-text,
+  .codeConduct--list-item {
+    font-size: 0.875rem;
+  }
 }
