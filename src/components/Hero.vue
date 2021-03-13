@@ -1,7 +1,7 @@
 <template>
   <div class="bg-hero">
     <div class="hero-logo-wrapper">
-      <img class="hero-logo" src="@/assets/images/gif1.gif" alt="" />
+      <img class="hero-logo" src="@/assets/images/suma-exp.gif" alt="" />
     </div>
     <p class="hero-intro">
       Una conferencia latinoamericana en diseño de experiencia de uso (UX)

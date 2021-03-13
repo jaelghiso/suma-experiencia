@@ -1,11 +1,13 @@
 <template>
   <div class="header">
     <div class="header-brand">
-      <img
-        src="@/assets/images/suma-exp_logo.svg"
-        alt=""
-        class="header-brand--logo"
-      />
+      <router-link to="/">
+        <img
+          src="@/assets/images/suma-exp_logo.svg"
+          alt=""
+          class="header-brand--logo"
+        />
+      </router-link>
     </div>
     <div class="mainNav ml-auto">
       <Burger v-show="isMobile()" class="px-3"></Burger>
@@ -49,9 +51,7 @@
           <a href="#networking">Networking</a>
         </li>
         <li>
-          <router-link to="/code-of-conduct" target="_blank"
-            >Código de conducta
-          </router-link>
+          <router-link to="/code-of-conduct">Código de conducta </router-link>
         </li>
         <li>
           <a href="#footer">Contacto </a>

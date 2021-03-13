@@ -92,7 +92,9 @@
         </ul>
       </div>
       <div class="codeConduct-subSection">
-        <h2 class="codeConduct-subSection--title">Respetar a los demás</h2>
+        <h2 class="codeConduct-subSection--title green">
+          Respetar a los demás
+        </h2>
         <p class="codeConduct-text">
           Suma Experiencia prioriza la seguridad de las personas marginadas
           sobre la comodidad de las personas privilegiadas. Nos reservamos el
