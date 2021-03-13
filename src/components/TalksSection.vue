@@ -10,7 +10,7 @@
         target="_blank"
         class="talks-button"
       >
-        Registrate ahora
+        Regístrate ahora
       </a>
     </div>
     <div class="talks-carousel scrollbar">

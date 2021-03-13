@@ -14,7 +14,8 @@
       <a
         href="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
         class="hero-button"
-        >Registrate</a
+        target="_blank"
+        >Regístrate</a
       >
     </div>
   </div>

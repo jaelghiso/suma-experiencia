@@ -30,7 +30,7 @@
             href="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
             target="_blank"
             class="mainNav-link register-button"
-            >Registrate
+            >Regístrate
           </a>
         </li>
       </ul>
@@ -60,7 +60,7 @@
           <a
             href="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
             target="_blank"
-            >Registrate
+            >Regístrate
           </a>
         </li>
       </ul>
