@@ -1,0 +1,91 @@
+.codeConduct {
+  display: flex;
+  justify-content: center;
+}
+
+.texture--wrapper {
+  width: 350px;
+  position: absolute;
+  top: 75px;
+  right: 0px;
+  float: right;
+}
+
+.codeConductSection {
+  max-width: 1150px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 120px auto;
+}
+
+.texture-img {
+  width: 70%;
+  transform: rotate(15deg);
+  opacity: 0.2;
+}
+
+.codeConduct-title {
+  font-family: $font-family-secondary;
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: $purple-500;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.codeConduct-text,
+.codeConduct--list-item {
+  font-family: $font-family-secondary;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 20px auto;
+  margin: 20px 0;
+}
+
+.codeConduct-list {
+  list-style-type: disc;
+  color: $purple-500;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.codeConduct--list-item {
+  padding-left: 10px;
+  color: $black;
+}
+
+.codeConduct-subSection--title {
+  font-size: 1.5rem;
+  font-family: $font-family-secondary;
+  margin: 40px 0 30px 0;
+}
+.codeConduct-subSection--subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: $grey-500;
+  font-family: $font-family-secondary;
+}
+
+.magenta {
+  color: $magenta-500;
+}
+
+.cyan {
+  color: $cyan-500;
+}
+
+.green {
+  color: $green-500;
+}
+
+.purple {
+  color: $purple-300;
+}
+
+.thankYou {
+  font-size: 2rem;
+  font-family: $font-family-secondary;
+  color: $pink-500;
+  margin: 60px 0 30px 0;
+}

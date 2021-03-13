@@ -16,7 +16,7 @@
           </router-link>
         </li>
         <li class="inline-block mr-3">
-          <router-link to="/coming-soon" class="mainNav-link"
+          <router-link to="/code-of-conduct" class="mainNav-link"
             >Código de conducta
           </router-link>
         </li>
