@@ -49,7 +49,7 @@
           <a href="#networking">Networking</a>
         </li>
         <li>
-          <router-link to="/coming-soon" target="_blank"
+          <router-link to="/code-of-conduct" target="_blank"
             >Código de conducta
           </router-link>
         </li>
