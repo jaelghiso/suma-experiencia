@@ -9,7 +9,13 @@ export default {
   metaInfo() {
     return {
       title: "sUma eXperiencia | Conferencia UX",
-      meta: [{ property: "og:image", content: "https://postimg.cc/gw4skHsp" }]
+      meta: [
+        {
+          property: "og:image",
+          itemprop: "image",
+          content: "https://postimg.cc/gw4skHsp"
+        }
+      ]
     };
   }
 };
