@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="organizers-people">
-        <div class="grid lg:grid-cols-4 sm:grid-cols-2 md:gap-6 sm:gap-2">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-2 md:gap-12 sm:gap-2">
           <div class="organizer">
             <div class="organizer-img--wrapper">
               <img
