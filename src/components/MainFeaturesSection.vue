@@ -1,7 +1,6 @@
 <template>
   <div class="mainFeatures-section">
     <main-feature
-      route="/talks"
       iconSrc="talks-icon"
       title="Charlas"
       subtitle="mUévete"
@@ -11,7 +10,6 @@
       type="talks"
     />
     <main-feature
-      route="/workshops"
       iconSrc="workshops-icon"
       title="Talleres"
       subtitle="eXperimenta"
@@ -19,7 +17,6 @@
       type="workshops"
     />
     <main-feature
-      route="/panels"
       iconSrc="panels-icon"
       title="Paneles"
       subtitle="cUestiona"
@@ -27,7 +24,6 @@
       type="panels"
     />
     <main-feature
-      route="/networking"
       iconSrc="networking-icon"
       title="Networking"
       subtitle="eXplora"

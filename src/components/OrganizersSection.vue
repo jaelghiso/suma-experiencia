@@ -134,6 +134,19 @@
               Traducción a portugués
             </p>
           </div>
+          <div class="organizer">
+            <div class="organizer-img--wrapper">
+              <img
+                src="@/assets/images/Jael.png"
+                alt=""
+                class="organizer-img"
+              />
+            </div>
+            <h4 class="organizer-name">Jael Ghiso</h4>
+            <p class="organizer-role">
+              Desarrolladora de Interfaz
+            </p>
+          </div>
         </div>
       </div>
     </div>
