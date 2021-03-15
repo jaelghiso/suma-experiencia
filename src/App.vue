@@ -11,9 +11,15 @@ export default {
       title: "sUma eXperiencia | Conferencia UX",
       meta: [
         {
+          vmid: "image",
           property: "og:image",
           itemprop: "image",
           content: "https://postimg.cc/gw4skHsp"
+        },
+        {
+          vmid: "url",
+          property: "og:url",
+          content: "www.sumaexperiencia.com"
         }
       ]
     };
