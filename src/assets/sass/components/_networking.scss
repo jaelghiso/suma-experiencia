@@ -10,7 +10,7 @@
 .networking-info {
   width: 50%;
   margin: 0 20px;
-  height: 350px;
+  height: 810px;
 }
 
 .networking-intro {
@@ -115,17 +115,85 @@
   color: $yellow-500;
 }
 
+.networking-people{
+  margin: 0;
+}
+
+.networker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.networker-img--wrapper {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.networker-img--wrapper:hover {
+  transform: scale(1.2);
+}
+
+.networker-img {
+  max-width: 100px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.networker:nth-child(even) .networker-img--wrapper > .networker-img {
+  border: 5px solid $yellow-500;
+  border-radius: 50%;
+}
+
+.networker:nth-child(even) .networker-img--wrapper > .networker-img:hover {
+  box-shadow: 2px 6px 12px rgba(232, 200, 145, 0.5);
+}
+
+.networker:nth-child(odd) .networker-img--wrapper > .networker-img {
+  border: 5px solid $pink-500;
+  border-radius: 50%;
+}
+
+.networker:nth-child(odd) .networker-img--wrapper > .networker-img:hover {
+  box-shadow: 2px 6px 12px rgba(203, 83, 148, 0.5);
+}
+
+.networker-name {
+  min-height: 40px;
+  vertical-align: middle;
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+  color: $purple-500;
+  margin-bottom: 12px;
+}
+
+.networker-role {
+  max-width: 260px;
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-align: center;
+  color: #484848;
+}
+
 @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
   .networkingSection {
     margin-bottom: 60px;
   }
+  .networking-intro,
   .networking-info {
-    height: 460px;
-    padding: 10px;
-  }
-  .networking-intro {
-    height: 460px;
-  }
+  width: 50%;
+  margin: 0 20px;
+  height: 1060px;
+}
 }
 
 @media (max-width: #{$mobile-width}) {
@@ -145,7 +213,12 @@
     height: 350px;
   }
   .networking-info {
-    height: 460px;
+    height: auto;
+  }
+
+  .networking-people {
+    width: 100%;
+    margin: 0;
   }
 
   .networking-title {

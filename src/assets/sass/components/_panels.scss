@@ -10,7 +10,7 @@
 .panels-info {
   width: 50%;
   margin: 0 20px;
-  height: 350px;
+  height: 560px;
 }
 
 .panels-intro {
@@ -115,6 +115,75 @@
   color: $yellow-500;
 }
 
+.panels-people{
+  margin: 0 20px;
+}
+
+.panelist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panelist-img--wrapper {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.panelist-img--wrapper:hover {
+  transform: scale(1.2);
+}
+
+.panelist-img {
+  max-width: 100px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.panelist:nth-child(even) .panelist-img--wrapper > .panelist-img {
+  border: 5px solid $yellow-500;
+  border-radius: 50%;
+}
+
+.panelist:nth-child(even) .panelist-img--wrapper > .panelist-img:hover {
+  box-shadow: 2px 6px 12px rgba(232, 200, 145, 0.5);
+}
+
+.panelist:nth-child(odd) .panelist-img--wrapper > .panelist-img {
+  border: 5px solid $pink-500;
+  border-radius: 50%;
+}
+
+.panelist:nth-child(odd) .panelist-img--wrapper > .panelist-img:hover {
+  box-shadow: 2px 6px 12px rgba(203, 83, 148, 0.5);
+}
+
+.panelist-name {
+  min-height: 40px;
+  vertical-align: middle;
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+  color: $purple-500;
+  margin-bottom: 12px;
+}
+
+.panelist-role {
+  max-width: 260px;
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-align: center;
+  color: #484848;
+}
+
 @media (max-width: #{$mobile-width}) {
   .panelsSection {
     flex-direction: column;
@@ -128,9 +197,17 @@
     margin: 20px;
   }
 
-  .panels-intro,
-  .panels-info {
+  .panels-intro {
     height: 350px;
+  }
+
+  .panels-info{
+    height: auto;
+  }
+
+  .panels-people {
+    width: 100%;
+    margin: 0;
   }
 
   .panels-title {
@@ -156,6 +233,13 @@
 }
 
 @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+  .panels-intro,
+  .panels-info {
+  width: 50%;
+  margin: 0 20px;
+  height: 830px;
+}
+  
   .panels-date {
     display: flex;
     flex-direction: column;

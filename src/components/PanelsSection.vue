@@ -29,10 +29,32 @@
           GMT-3</span
         >
       </div>
+      <div class="panels-people">
+        <div class="grid lg:grid-cols-4 sm:grid-cols-2 lg:gap-4 sm:gap-4 mt-8">
+          <card-panels
+            v-for="panel in panels"
+            :key="panel.id"
+            :panelSpeaker="panel.speaker"
+            :panelRol="panel.speakerRol"
+            :panelPhoto="panel.path"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 <script>
-export default {};
+import jsonPanels from "@/store/panels-info.json";
+import CardPanels from "@/components/organisms/CardPanels.vue";
+export default {
+  components: {
+    CardPanels
+  },
+  data() {
+    return {
+      panels: jsonPanels.panels
+    };
+  }
+};
 </script>
 <style scoped></style>

@@ -9,12 +9,26 @@
       British Association of Uruguay (GBUA).
     </p>
     <p class="hero-date">15 al 20 de Marzo 2021</p>
-    <a
-      href="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
-      class="hero-button"
-      target="_blank"
-      >Registrate aquí</a
-    >
+    <div class="hero-links">
+      <a
+        href="https://youtu.be/NE8xlrto-vs"
+        class="hero-button lg:mr-2 md:mr-2 mb-2"
+        target="_blank"
+        >Streaming (audio original)</a
+      >
+      <a
+        href="https://youtu.be/_cQnaCv_ccs"
+        class="hero-button lg:mr-2 md:mr-2 mb-2"
+        target="_blank"
+        >Ver online (español)</a
+      >
+      <a
+        href="https://youtu.be/BBbwTJBxbx0"
+        class="hero-button lg:mr-2 md:mr-2 mb-2"
+        target="_blank"
+        >Vê online (portugues)</a
+      >
+    </div>
   </div>
 </template>
 <script>

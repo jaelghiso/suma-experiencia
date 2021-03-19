@@ -1,7 +1,11 @@
 <template>
   <div class="talks-card">
-    <div class="talk-photo">
-      <img :src="require(`@/assets/images/${talkPhoto}.jpg`)" alt="" />
+    <div class="talks-photo">
+      <img
+        :src="require(`@/assets/images/${talkPhoto}.jpg`)"
+        alt=""
+        class="talks-img"
+      />
       <img class="talks-texture" src="@/assets/images/Textura 4.svg" alt="" />
     </div>
     <div class="talks-card-body">

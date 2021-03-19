@@ -58,10 +58,27 @@
         </li>
         <li>
           <a
-            href="https://www.eventbrite.cl/e/suma-experiencia-conferencia-ux-tickets-141752121411"
+            href="https://youtu.be/NE8xlrto-vs"
+            class="streaming-button mb-2"
             target="_blank"
-            >Regístrate
-          </a>
+            >Streaming (audio original)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://youtu.be/_cQnaCv_ccs"
+            class="streaming-button mb-2"
+            target="_blank"
+            >Ver online (español)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://youtu.be/BBbwTJBxbx0"
+            class="streaming-button mb-2"
+            target="_blank"
+            >Vê online (portugues)</a
+          >
         </li>
       </ul>
     </Sidebar>

@@ -22,6 +22,17 @@
           GMT-3</span
         >
       </div>
+      <div class="networking-people">
+        <div class="grid lg:grid-cols-5 sm:grid-cols-3 lg:gap-4 sm:gap-2 mt-8">
+          <card-networking
+            v-for="networking in networkings"
+            :key="networking.id"
+            :networkingSpeaker="networking.speaker"
+            :networkingRol="networking.speakerRol"
+            :networkingPhoto="networking.path"
+          />
+        </div>
+      </div>
     </div>
     <div class="networking-intro">
       <div class="networking-img--wrapper">
@@ -39,6 +50,17 @@
   </div>
 </template>
 <script>
-export default {};
+import jsonNetworking from "@/store/networking-info.json";
+import CardNetworking from "@/components/organisms/CardNetworking.vue";
+export default {
+  components: {
+    CardNetworking
+  },
+  data() {
+    return {
+      networkings: jsonNetworking.networkings
+    };
+  }
+};
 </script>
 <style scoped></style>

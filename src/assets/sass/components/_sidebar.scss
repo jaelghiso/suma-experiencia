@@ -43,3 +43,15 @@ ul.sidebar-panel-nav > li > a {
   display: block;
   padding-bottom: 0.8rem;
 }
+
+ul.sidebar-panel-nav > li > a.streaming-button {
+  background-color: $magenta-500;
+  border-radius: 5px;
+  padding: 9px 16px;
+  font-size: 0.875rem;
+  font-family: $font-family-secondary;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: none;
+  text-align: center;
+}

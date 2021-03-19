@@ -28,7 +28,7 @@
           >{{ workshopHour }}</span
         >
         <small class="workshops-hour">{{ workshopHoursLatam }}</small>
-        <a :href="workshopUrl" target="_blank" class="workshops-button"
+        <a :href="workshopUrl" target="_blank" class="workshops-button hidden"
           >Regístrate</a
         >
       </div>
@@ -45,7 +45,7 @@ export default {
     workshopDate: String,
     workshopHour: String,
     workshopHoursLatam: String,
-    workshopUrl: String,
+    workshopUrl: String
   }
 };
 </script>

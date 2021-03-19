@@ -1,0 +1,24 @@
+{
+    "panels" : [
+        {
+            "speaker": "Doda Maticorena",
+            "speakerRol": "Diseñadora UX y de interfaces - Egresada de Laboratoria",
+            "path": "Doda.png"
+        },
+        {
+            "speaker": "Abigail Schreider",
+            "speakerRol": "Diseñadora de experiencias, inmigrante y feminista",
+            "path": "Abigail.png"
+        },
+        {
+            "speaker": "Lucia Bustamante",
+            "speakerRol": "Product Designer en Theorem (USA)",
+            "path": "Lucia.png"
+        },
+        {
+            "speaker": "Regina A. Lena",
+            "speakerRol": "Design Director @ LumiereStraat",
+            "path": "regi.png"
+        }
+    ]
+}

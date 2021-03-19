@@ -1,0 +1,29 @@
+{
+    "networkings" : [
+        {
+            "speaker": "Lisandra de Armas",
+            "speakerRol": "Ingeniera de Software - Especializada en Mobile UX, Usabilidad y Accesibilidad",
+            "path": "Lisandra.png"
+        },
+        {
+            "speaker": "Valentina Raggio",
+            "speakerRol": "Diseñadora de experiencia de uso  - Magister en diseño editoral - Docente en UdelaR",
+            "path": "Vale.png"
+        },
+        {
+            "speaker": "Silvina de Brum",
+            "speakerRol": "Investigadora y disñadora de experiencias - Co-fundadora de Personas",
+            "path": "Silvi.png"
+        },
+        {
+            "speaker": "Fernanda Lobo",
+            "speakerRol": "Diseñadora Industrial especializada en diseño estratégico - Docente investigadora en UBA",
+            "path": "Fer.png"
+        },
+        {
+            "speaker": "Pau Delgado Iglesias",
+            "speakerRol": "Artista visual y docente universitaria - Especialista en género y cultura",
+            "path": "Pau.png"
+        }
+    ]
+}
