@@ -11,19 +11,19 @@
     <p class="hero-date">15 al 20 de Marzo 2021</p>
     <div class="hero-links">
       <a
-        href="https://youtu.be/NE8xlrto-vs"
+        href="https://youtu.be/yJYC2I9AmaA"
         class="hero-button lg:mr-2 md:mr-2 mb-2"
         target="_blank"
         >Streaming (audio original)</a
       >
       <a
-        href="https://youtu.be/_cQnaCv_ccs"
+        href="https://youtu.be/mHYl_aPifsU"
         class="hero-button lg:mr-2 md:mr-2 mb-2"
         target="_blank"
         >Ver online (español)</a
       >
       <a
-        href="https://youtu.be/BBbwTJBxbx0"
+        href="https://youtu.be/5_Y0uuPk-0k"
         class="hero-button lg:mr-2 md:mr-2 mb-2"
         target="_blank"
         >Vê online (portugues)</a

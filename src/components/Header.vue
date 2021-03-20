@@ -58,7 +58,7 @@
         </li>
         <li>
           <a
-            href="https://youtu.be/NE8xlrto-vs"
+            href="https://youtu.be/yJYC2I9AmaA"
             class="streaming-button mb-2"
             target="_blank"
             >Streaming (audio original)</a
@@ -66,7 +66,7 @@
         </li>
         <li>
           <a
-            href="https://youtu.be/_cQnaCv_ccs"
+            href="https://youtu.be/mHYl_aPifsU"
             class="streaming-button mb-2"
             target="_blank"
             >Ver online (español)</a
@@ -74,7 +74,7 @@
         </li>
         <li>
           <a
-            href="https://youtu.be/BBbwTJBxbx0"
+            href="https://youtu.be/5_Y0uuPk-0k"
             class="streaming-button mb-2"
             target="_blank"
             >Vê online (portugues)</a
