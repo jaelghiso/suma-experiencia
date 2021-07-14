@@ -23,6 +23,11 @@
           </router-link>
         </li>
         <li class="inline-block mr-3">
+          <a href="https://docs.google.com/spreadsheets/d/1gDUnxoWDrXgazfjFntySSUbaJoz68N3V8ii4YHRZugM/edit#gid=2029343700"
+          target="_blank"
+          class="mainNav-link">Recursos</a>
+        </li>
+        <li class="inline-block mr-3">
           <a href="#footer" class="mainNav-link">Contacto </a>
         </li>
         <li class="inline-block mr-3">
@@ -58,26 +63,26 @@
         </li>
         <li>
           <a
-            href="https://youtu.be/yJYC2I9AmaA"
+            href="https://www.youtube.com/watch?v=NE8xlrto-vs"
             class="streaming-button mb-2"
             target="_blank"
-            >Streaming (audio original)</a
+            >Streaming Viernes 19</a
           >
         </li>
         <li>
           <a
-            href="https://youtu.be/mHYl_aPifsU"
+            href="https://www.youtube.com/watch?v=yJYC2I9AmaA"
             class="streaming-button mb-2"
             target="_blank"
-            >Ver online (español)</a
+            >Streaming Sábado 20</a
           >
         </li>
         <li>
           <a
-            href="https://youtu.be/5_Y0uuPk-0k"
+            href="https://docs.google.com/spreadsheets/d/1gDUnxoWDrXgazfjFntySSUbaJoz68N3V8ii4YHRZugM/edit#gid=2029343700"
             class="streaming-button mb-2"
             target="_blank"
-            >Vê online (portugues)</a
+            >Recursos</a
           >
         </li>
       </ul>

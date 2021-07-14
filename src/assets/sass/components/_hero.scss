@@ -51,6 +51,15 @@
   flex-direction: row;
 }
 
+.hero-footnote {
+  margin-top: 20px;
+  font-family: $font-family-primary;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: $white;
+  text-align: center;
+}
+
 @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
   .hero-logo-wrapper {
     margin-left: -50px;
@@ -94,6 +103,11 @@
   }
   .hero-date {
     position: initial;
+  }
+
+  .hero-footnote {
+    padding: 6%;
+    margin-top: 0;
   }
 
   .hero-links{
